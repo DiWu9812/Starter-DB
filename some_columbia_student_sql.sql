@@ -1,6 +1,7 @@
 /*
  Create table statement.
  */
+use HW1;
 create table columbia_student
 (
     auto_id     int auto_increment
