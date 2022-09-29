@@ -14,5 +14,12 @@
         <property name="enabledTLSProtocols" value="TLSv1.1" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="AWS-1" uuid="d1e58996-cb01-4ec7-9684-fde4079f78d2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://hw1-dw3013.c4gryhcdew19.us-east-1.rds.amazonaws.com:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
